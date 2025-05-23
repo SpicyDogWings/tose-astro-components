@@ -11,6 +11,9 @@ importers:
       astro:
         specifier: ^5.8.0
         version: 5.8.0(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.8.3)
+      astro-heroicons:
+        specifier: 2.1.5-1
+        version: 2.1.5-1
 
 packages:
 
@@ -511,6 +514,9 @@ packages:
 
   array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
+
+  astro-heroicons@2.1.5-1:
+    resolution: {integrity: sha512-Ciy8T7YkH+ZIIUR6czHH8FG/tpI1jGpbUQhlRjB0bi9FTy3gZ1YoQqNhteGeZQHmak+t1GTwfr3b/Vv5ls7Wiw==}
 
   astro@5.8.0:
     resolution: {integrity: sha512-G57ELkdIntDiSrucA5lQaRtBOjquaZ9b9NIwoz2f471ZuuJcynLjWgItgBzlrz5UMY4WqnFbVWUCKlJb7nt9bA==}
@@ -1832,6 +1838,8 @@ snapshots:
   aria-query@5.3.2: {}
 
   array-iterate@2.0.1: {}
+
+  astro-heroicons@2.1.5-1: {}
 
   astro@5.8.0(@types/node@22.15.21)(rollup@4.41.0)(typescript@5.8.3):
     dependencies:
