@@ -1,0 +1,22 @@
+---
+const { type = "button", variant = "primary" } = Astro.props;
+
+let clasesButton = "";
+
+if (variant === "primary") {
+    clasesButton = "bg-primary-200 hover:bg-primary-300 active:bg-primary-400";
+} else if (type === "secondary") {
+    clasesButton =
+        "bg-secondary-200 hover:bg-secondary-300 active:bg-secondary-400";
+} else {
+    clasesButton =
+        "bg-tertiary-200 hover:bg-tertiary-300 active:bg-tertiary-400";
+}
+---
+
+<button
+    type={type}
+    class:list={"py-2 px-5 text-primary-700 rounded-md hover:cursor-pointer active:scale-95 duration-150 ease-out"}
+>
+    <slot />
+</button>
